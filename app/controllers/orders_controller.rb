@@ -1,4 +1,4 @@
-class User::OrdersController < ApplicationController
+class OrdersController < ApplicationController
   before_action :exclude_admin
 
   def index
